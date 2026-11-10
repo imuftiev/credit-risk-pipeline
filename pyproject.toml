@@ -1,0 +1,21 @@
+[project]
+name = "credit-risk-pipeline"
+package-mode = false
+version = "1.0.0"
+description = "ML-Project"
+authors = [
+    {name = "Muftiev I.N."}
+]
+license = "MIT"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=3.1.1,<4.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "python-calamine (>=0.9.1,<0.10.0)"
+]
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
